@@ -14,14 +14,11 @@ public class pattern105 {
 			}
 			for(int k=1;k<=i;k++) {
 				System.out.print(i +"\t");
-	
-	
 				}
 			if(i>=2) {
 				for(int k=1;k<i;k++) {
 					System.out.print(i+"\t");
 				}
-				
 			}
 			
 			System.out.println();

@@ -7,7 +7,6 @@ public class pattern117 {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("enter the size:");
 		int n =sc.nextInt();
-		int m=0;
 		for (int i = 0; i < n; i++) {
             
 

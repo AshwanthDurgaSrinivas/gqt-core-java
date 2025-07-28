@@ -37,17 +37,12 @@ public class pattern110 {
 				
 					System.out.print("\t");
 			}
-			for(int k=2;k<=i;k++) {
+			for(int k=1;k<=i*2-1;k++) {
 				System.out.print(i +"\t");
 	
 	
 				}
-			if(i>=2) {
-				for(int k=1;k<=i;k++) {
-					System.out.print(i+"\t");
-				}
-				
-			}
+			
 			
 			System.out.println();
 		}

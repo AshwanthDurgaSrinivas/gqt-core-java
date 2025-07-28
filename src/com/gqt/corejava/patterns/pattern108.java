@@ -1,4 +1,3 @@
-
 package com.gqt.corejava.patterns;
 import java.util.Scanner;
 public class pattern108 {
@@ -32,12 +31,9 @@ public class pattern108 {
 		}
 		for(int m=1;m<n;m++) {
 			for(int o=1;o<=m;o++) {
-				if(o==1) {
-				System.out.print(" \t");
-				}
-				else {
+				
 					System.out.print(" \t");
-				}
+				
 			}
 			for(int q=1;q<=n-m;q++) {
 				System.out.print(q+"\t");
