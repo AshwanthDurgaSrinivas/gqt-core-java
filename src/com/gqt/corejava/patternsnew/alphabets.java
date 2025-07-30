@@ -332,7 +332,7 @@ public class alphabets {
 				}
 			}
 			System.out.print("		");
-			/*
+			/* 
 			 * V
 			 */
 			for(int j=0;j<n;j++) {
