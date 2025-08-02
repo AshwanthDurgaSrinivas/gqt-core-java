@@ -1,0 +1,90 @@
+package arrays;
+import java.util.Scanner;
+class matrixoperation{
+	int a[][];
+	int b[][];
+	int c[][];
+	int d[][];
+	Scanner sc=new Scanner(System.in);
+	void create() {
+		System.out.println("Enter the matrix size:");
+		int n = sc.nextInt();
+		
+		 a=new int[n][n];
+		 b= new int[n][n];
+		 c=new int[n][n];
+		 d=new int[n][n];
+		 System.out.println("Arrray Created");
+	}
+	void collectdata() {
+		System.out.println("first matrix");
+		for(int i=0;i<a.length;i++) {
+			System.out.println("First Row data:"+(i+1));
+			for(int j=0;j<a[i].length;j++) {
+				System.out.println("Enter the value at column no :"+(j+1));
+				a[i][j]=sc.nextInt();
+			}
+			
+			}
+		System.out.println("second matrix");
+		for(int i=0;i<b.length;i++) {
+			System.out.println("First Row data:"+(i+1));
+			for(int j=0;j<b[i].length;j++) {
+				System.out.println("Enter the value at column no :"+(j+1));
+				b[i][j]=sc.nextInt();
+			}
+			
+			}
+		System.out.println("Data Collected");
+		System.out.println("----------------");
+	}
+	void addition() {
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
+				c[i][j]=a[i][j]+b[i][j];
+			}
+			
+			}
+		System.out.println("added matrix");
+		for(int i=0;i<c.length;i++) {
+			
+			for(int j=0;j<c[i].length;j++) {
+				System.out.print(c[i][j]+" ");
+			}
+			System.out.println();
+			}
+	}
+	void mul() {
+		for(int i=0;i<a.length;i++) {
+			
+			for(int j=0;j<b[i].length;j++) {
+				for (int k=0;k<d.length;k++) {
+					d[i][j]=d[i][j]+(a[i][k]*b[k][j]);
+				}
+				
+			}
+			}
+		System.out.println("multipled matrix");
+		for(int i=0;i<d.length;i++) {
+			
+			for(int j=0;j<d[i].length;j++) {
+				System.out.print(d[i][j]+" ");
+			}
+			System.out.println();
+			}
+		
+	}
+}
+public class Matrixaddition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		matrixoperation ao =new matrixoperation();
+		ao.create();
+		ao.collectdata();
+		ao.addition();
+		ao.mul();
+
+	}
+
+}
