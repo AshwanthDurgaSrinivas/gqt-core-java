@@ -18,7 +18,7 @@ public class JavaQuizApp {
        
         System.out.println(GREEN+"HI "+name.toUpperCase()+" WELCOME TO QUIZ "+RESET);
         System.out.println(RED+"Rules:"+RESET);
-        System.out.println(PURPLE+"-> Each question carries $10000\n->If You Enter one Wrong Answer game will Over\n->If You Enter Wrong Answer Before 5th Question Your Score is $0\n->If You Enter Wrong Answer Before 7th Question Your Score is $50000\n->If You Enter Wrong Answer Before 10th Question Your Score is $70000\n->You Have Two Life-Lines (50-50 & AudiencePoll) Each Can Be Used Only Once \n->Think Twice Before Answering "+RESET);
+        System.out.println(PURPLE+"-> Each question carries $10000\n-> If You Enter one Wrong Answer game will Over\n-> If You Enter Wrong Answer Before 5th Question Your Score is $0\n-> If You Enter Wrong Answer Before 7th Question Your Score is $50000\n-> If You Enter Wrong Answer Before 10th Question Your Score is $70000\n-> You Have Two Life-Lines (50-50 & AudiencePoll) Each Can Be Used Only Once \n-> Think Twice Before Answering "+RESET);
         System.out.println(YELLOW+"ALL THE BEST "+RESET+BLUE+name.toUpperCase()+RESET);
         System.out.print(BLUE+"ENTER YES TO START:");
         start=sc.next();
